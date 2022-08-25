@@ -2,10 +2,16 @@ package com.projects.demo;
 
 public class Sample 
 {
-public static void main(String[] args) 
-{
-int a=10;
-System.out.println("a");
-System.out.println("Sreelakshmi is a good ");
-}
+	public static void main(String arg[])	
+	{
+             	int n=5,fact=1;
+ 
+	        for(int i=1;i<=n;i++)
+	  	  {
+ 
+	    	   fact=fact*i;
+ 	 	  }
+ 
+ 	        System.out.println("factoral="+fact);
+	}
 }
